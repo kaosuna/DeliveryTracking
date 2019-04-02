@@ -4,7 +4,7 @@
 namespace Pasuke\JapanDeliveryTracker;
 
 
-interface TrackingInfo
+interface DeliveryItemStatus
 {
 
 }

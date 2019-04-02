@@ -9,7 +9,7 @@ interface JapanDeliveryTracker
     /**
      * 配送情報を取得する
      *
-     * @return TrackingInfo
+     * @return DeliveryItemStatus
      */
-    public static function getTrackingInfo(): TrackingInfo;
+    public static function getTrackingInfo(): DeliveryItemStatus;
 }

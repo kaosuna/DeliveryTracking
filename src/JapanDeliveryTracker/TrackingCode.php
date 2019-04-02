@@ -4,12 +4,15 @@
 namespace Pasuke\JapanDeliveryTracker;
 
 
+use Pasuke\JapanDeliveryTracker\Exception\InvalidTrackingCodeFormatException;
+
 interface TrackingCode
 {
     /**
      * TrackingCode インスタンスを生成する
      *
      * @param string $trackingCode 追跡番号
+     * @throws InvalidTrackingCodeFormatException 追跡番号の書式が正しくないとき
      */
     public function __construct(string $trackingCode);
 

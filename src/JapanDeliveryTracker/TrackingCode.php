@@ -6,6 +6,11 @@ namespace Pasuke\JapanDeliveryTracker;
 
 use Pasuke\JapanDeliveryTracker\Exception\InvalidTrackingCodeFormatException;
 
+/**
+ * 追跡番号
+ *
+ * @package Pasuke\JapanDeliveryTracker
+ */
 interface TrackingCode
 {
     /**

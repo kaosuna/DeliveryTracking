@@ -1,0 +1,18 @@
+{
+  "name": "pasuke/japan-delivery-tracker",
+  "description": "日本の宅配業者の配送状況を取得するライブラリ",
+  "type": "library",
+  "authors": [
+    {
+      "name": "stmkza",
+      "email": "stmkza@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Pasuke\\JapanDeliveryTracker\\": "src/JapanDeliveryTracker/"
+    }
+  }
+}
